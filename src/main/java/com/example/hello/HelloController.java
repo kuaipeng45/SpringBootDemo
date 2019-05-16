@@ -29,7 +29,7 @@ public class HelloController {
 
     @GetMapping("/item")
     public String item(Model model){
-        model.addAttribute("itemArr", new String[]{"iphone7测试","华为手机","小米手机"});
+        model.addAttribute("itemArr", new String[]{"iphone7测试ha","华为手机","小米手机"});
         return "data/item";
     }
 
